@@ -87,3 +87,12 @@
     { "payer": "MILLER COORS", "points": -4700 }
 ]
 ```
+
+## Running The Exercise
+
+1. Download Exercise Contents to get started.
+2. Open the terminal you'd like to use and navigate to the **fetch-api** folder
+3. Now build the container image using the `docker build` command
+4. After the build, you'll start the container with `docker dompose up`
+5. Navigate to http://localhost:5000 to view the app.
+6. Adding data and Viewing point balances will be accessible by **Postman**
